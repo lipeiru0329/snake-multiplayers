@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Multiplayer Snake Game</title>
+	<link rel="stylesheet" type="text/css" href="css/snake.css" />
+</head>
+
+<body>
+	<div class="main">
+		<div class="game_box">
+			<h1 class="title">
+				<span class="word">MultiPlayer</span>
+				<span class="word">Snake</span>
+				<span class="word">Game</span>
+			</h1>
+
+			<!--游戏盒子-->
+			<div class="map" id="map"></div>
+			<!--游戏盒子_end-->
+
+			<button class="btn" id="begin">Start Game</button>
+			<button class="btn" id="pause">Pause Game</button>
+			<button class="btn" id="restart">Restart Game</button>
+		</div>
+		<div>
+			<ul>
+				<li>
+					<p>Game Instruction: </p>
+				</li>
+				<li>1、Left controlled by W, S, A, D, right controlled by ↑、↓、←、→ </li>
+				<li>2、there are two food in the box</li>
+				<li>3. if header hit, two players will tie</li>
+				<li>4. if one play hit another's body, he will lose</li>
+				<li>5. if one play hit the wall or his own body, he will lose </li>
+			</ul>
+		</div>
+	</div>
+</body>
+
+</html>
+<script type="text/javascript" src="js/snake.js"></script>
+<script type="text/javascript" src="js/index.js"></script>

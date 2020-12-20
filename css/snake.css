@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	width: 800px;
+	height: 400px;
+	margin: 50px auto;
+}
+
+.game_box{
+	text-align: center;
+}
+
+.btn {
+	margin: 30px;
+	margin-top: 40px;
+	width: 100px;
+	height: 40px;
+}
+
+.map {
+	position: relative;
+	margin-top: 40px;
+	width: 800px;
+	height: 400px;
+	background: #ccc;
+}
+
+.info{
+	display: none;
+	margin-top: 40px;
+	width: 800px;
+	height: 400px;
+	background: #ccc;
+	text-align: center;
+	font-size: 16px;
+}
+
+.info p{
+	position: relative;
+	margin-top: 40px;
+}
+
+.info p a{
+	text-decoration: none;
+	color: red;
+}
+
+.firstline{
+	padding-top: 50px;
+}
+
+.back{
+	margin-top: 40px;
+	width: 100px;
+	height: 40px;
+}
+
+li{
+	list-style: none;
+	margin-top: 10px;
+}
